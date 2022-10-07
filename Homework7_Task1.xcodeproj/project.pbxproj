@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA32376028E333E900C84D33 /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32375F28E333E900C84D33 /* SimpleTableViewCell.swift */; };
+		FA32376328E33F8900C84D33 /* SimpleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32376228E33F8900C84D33 /* SimpleDetailsViewController.swift */; };
+		FA3D738528ED9CBE00A88FDD /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3D738428ED9CBE00A88FDD /* UIImageView+Extension.swift */; };
+		FA3D738828EDA27500A88FDD /* PostPageTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3D738728EDA27500A88FDD /* PostPageTableViewVC.swift */; };
+		FA3D738C28EDA44E00A88FDD /* PeoplePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3D738A28EDA44E00A88FDD /* PeoplePostTableViewCell.swift */; };
+		FA3D738D28EDA44E00A88FDD /* PeoplePostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3D738B28EDA44E00A88FDD /* PeoplePostTableViewCell.xib */; };
 		FACD47B128D24D4A00AA9481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD47B028D24D4A00AA9481 /* AppDelegate.swift */; };
 		FACD47B328D24D4A00AA9481 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD47B228D24D4A00AA9481 /* SceneDelegate.swift */; };
 		FACD47B528D24D4A00AA9481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD47B428D24D4A00AA9481 /* ViewController.swift */; };
 		FACD47B828D24D4A00AA9481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD47B628D24D4A00AA9481 /* Main.storyboard */; };
 		FACD47BA28D24D4D00AA9481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACD47B928D24D4D00AA9481 /* Assets.xcassets */; };
 		FACD47BD28D24D4D00AA9481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD47BB28D24D4D00AA9481 /* LaunchScreen.storyboard */; };
+		FAE18A5E28E5E3CD0074D775 /* PersonJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE18A5D28E5E3CD0074D775 /* PersonJSON.json */; };
+		FAE18A6028E5E60A0074D775 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE18A5F28E5E60A0074D775 /* Models.swift */; };
+		FAE18A6228E5E7210074D775 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE18A6128E5E7210074D775 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA32375F28E333E900C84D33 /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		FA32376228E33F8900C84D33 /* SimpleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDetailsViewController.swift; sourceTree = "<group>"; };
+		FA3D738428ED9CBE00A88FDD /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		FA3D738728EDA27500A88FDD /* PostPageTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPageTableViewVC.swift; sourceTree = "<group>"; };
+		FA3D738A28EDA44E00A88FDD /* PeoplePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplePostTableViewCell.swift; sourceTree = "<group>"; };
+		FA3D738B28EDA44E00A88FDD /* PeoplePostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeoplePostTableViewCell.xib; sourceTree = "<group>"; };
 		FACD47AD28D24D4A00AA9481 /* Homework7_Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework7_Task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACD47B028D24D4A00AA9481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACD47B228D24D4A00AA9481 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,9 @@
 		FACD47B928D24D4D00AA9481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACD47BC28D24D4D00AA9481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FACD47BE28D24D4D00AA9481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE18A5D28E5E3CD0074D775 /* PersonJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PersonJSON.json; sourceTree = "<group>"; };
+		FAE18A5F28E5E60A0074D775 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FAE18A6128E5E7210074D775 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA32376128E33F0F00C84D33 /* SimpleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FA32375F28E333E900C84D33 /* SimpleTableViewCell.swift */,
+				FA32376228E33F8900C84D33 /* SimpleDetailsViewController.swift */,
+			);
+			path = SimpleTableView;
+			sourceTree = "<group>";
+		};
+		FA3D738628EDA1E200A88FDD /* PostPageTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D738928EDA40000A88FDD /* PeoplePostCell */,
+				FA3D738728EDA27500A88FDD /* PostPageTableViewVC.swift */,
+			);
+			path = PostPageTableView;
+			sourceTree = "<group>";
+		};
+		FA3D738928EDA40000A88FDD /* PeoplePostCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D738A28EDA44E00A88FDD /* PeoplePostTableViewCell.swift */,
+				FA3D738B28EDA44E00A88FDD /* PeoplePostTableViewCell.xib */,
+			);
+			path = PeoplePostCell;
+			sourceTree = "<group>";
+		};
 		FACD47A428D24D4A00AA9481 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +101,9 @@
 		FACD47AF28D24D4A00AA9481 /* Homework7_Task1 */ = {
 			isa = PBXGroup;
 			children = (
+				FA3D738628EDA1E200A88FDD /* PostPageTableView */,
+				FAE18A5C28E5DFBB0074D775 /* Data */,
+				FA32376128E33F0F00C84D33 /* SimpleTableView */,
 				FACD47B028D24D4A00AA9481 /* AppDelegate.swift */,
 				FACD47B228D24D4A00AA9481 /* SceneDelegate.swift */,
 				FACD47B428D24D4A00AA9481 /* ViewController.swift */,
@@ -65,6 +113,17 @@
 				FACD47BE28D24D4D00AA9481 /* Info.plist */,
 			);
 			path = Homework7_Task1;
+			sourceTree = "<group>";
+		};
+		FAE18A5C28E5DFBB0074D775 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FAE18A5D28E5E3CD0074D775 /* PersonJSON.json */,
+				FAE18A5F28E5E60A0074D775 /* Models.swift */,
+				FAE18A6128E5E7210074D775 /* DataManager.swift */,
+				FA3D738428ED9CBE00A88FDD /* UIImageView+Extension.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +184,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE18A5E28E5E3CD0074D775 /* PersonJSON.json in Resources */,
 				FACD47BD28D24D4D00AA9481 /* LaunchScreen.storyboard in Resources */,
 				FACD47BA28D24D4D00AA9481 /* Assets.xcassets in Resources */,
+				FA3D738D28EDA44E00A88FDD /* PeoplePostTableViewCell.xib in Resources */,
 				FACD47B828D24D4A00AA9481 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACD47B528D24D4A00AA9481 /* ViewController.swift in Sources */,
+				FA32376328E33F8900C84D33 /* SimpleDetailsViewController.swift in Sources */,
+				FA3D738528ED9CBE00A88FDD /* UIImageView+Extension.swift in Sources */,
+				FA3D738828EDA27500A88FDD /* PostPageTableViewVC.swift in Sources */,
+				FA32376028E333E900C84D33 /* SimpleTableViewCell.swift in Sources */,
+				FAE18A6228E5E7210074D775 /* DataManager.swift in Sources */,
+				FAE18A6028E5E60A0074D775 /* Models.swift in Sources */,
 				FACD47B128D24D4A00AA9481 /* AppDelegate.swift in Sources */,
+				FA3D738C28EDA44E00A88FDD /* PeoplePostTableViewCell.swift in Sources */,
 				FACD47B328D24D4A00AA9481 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
